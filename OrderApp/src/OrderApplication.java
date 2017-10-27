@@ -6,7 +6,7 @@
  * @author douglatr
  *
  */
-public class OrderApplicaion {
+public class OrderApplication {
 
 	/**
 	 * @param args
@@ -14,7 +14,7 @@ public class OrderApplicaion {
 	public static void main(String[] args) {
 		// TODO import our products
 		
-		OrderApplicaion oa = new OrderApplicaion();
+		OrderApplication oa = new OrderApplication();
 		
 		
 		
@@ -47,7 +47,7 @@ public class OrderApplicaion {
 		
 	}
 	
-	public void importCatalogue()
+	private void importCatalogue()
 	{
 		
 		
