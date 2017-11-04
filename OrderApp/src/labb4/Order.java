@@ -16,7 +16,8 @@ public class Order {
 		price = 0.00;
 		this.orderID = 1;
 		dateReceived = new Date();
-		this.customer = customer_;
+		this.customer = customer;
+		
 	}
 	
 	public Date getDateReceived()

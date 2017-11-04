@@ -21,13 +21,13 @@ public class OrderApplication {
 	private ProductCatalogue Catalogue;
 
 	public OrderApplication() {
-		//System.out.println("called OrderApplication class");
+		
 	}
 	
 	public boolean createOrder(Order oRef) {
 		
 		boolean success = this.importCatalogue();
-		//System.out.println("called OrderApplication class");
+		
 		
 		if (success) {
 			Iterator<Product> iterator = Catalogue.iterator();

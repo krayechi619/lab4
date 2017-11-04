@@ -52,7 +52,6 @@ public class main {
 			}
 			
 		} while (true);
-		
-
+	
 	}
 }
