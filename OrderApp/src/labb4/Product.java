@@ -10,24 +10,40 @@ package labb4;
  */
 public class Product {
 	
-	public String name;
-	public double price;
-	public int productID;
-	
-	public Product(String name_, Double price_, int productID_)
+	private String name;
+	private Double price;
+	private int productID;
+	private int quantity;
+
+	public Product(String name, Double price, int productID, int quantity)
 	{
 		
-		this.name = name_;
-		this.price = price_;
-		this.productID = productID_;
+		this.name = name;
+		this.price = price;
+		this.productID = productID;
+		this.quantity = quantity;
 	}
-	public String getName() {
-		return name;
+	
+	public String getName()
+	{
+		
+		return this.name;
 	}
-	public double getPrice() {
+	
+	public Double getPrice()
+	{
+	
 		return price;
 	}
-	public int getProductID() {
+	
+	public int getProductID()
+	{
+		
 		return productID;
+	}
+	
+	public int getQuantity()
+	{
+		return this.quantity;
 	}
 }

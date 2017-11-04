@@ -2,9 +2,9 @@ package labb4;
 
 
 public class CorporateCustomer extends Customer {
-	public CorporateCustomer(String name_, String address_, float creditRating_, float discountRating_) 
+	public CorporateCustomer(String name, String address, float creditRating, float discountRating) 
 	{
-		super(name_, address_, creditRating_, discountRating_);
+		super(name, address, creditRating, discountRating);
 
 	}
 private String contactName;

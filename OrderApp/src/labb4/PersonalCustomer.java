@@ -4,8 +4,8 @@ package labb4;
 public class PersonalCustomer extends Customer
 {
 	
-	public PersonalCustomer(String name_, String address_, float creditRating_, float discountRating_) {
-		super(name_, address_, creditRating_, discountRating_);
+	public PersonalCustomer(String name, String address, float creditRating, float discountRating) {
+		super(name, address, creditRating, discountRating);
 	}
 
 	private int creditCardNumber;

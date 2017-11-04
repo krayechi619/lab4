@@ -7,13 +7,13 @@ public class Customer {
 	private float creditRating;
 	private float discountRating;
 
-	public Customer(String name_, String address_, float creditRating_, float discountRating_)
+	public Customer(String name, String address, float creditRating, float discountRating)
 	{
 		
-		this.name = name_;
-		this.address = address_;
-		this.creditRating = creditRating_;
-		this.discountRating = discountRating_;
+		this.name = name;
+		this.address = address;
+		this.creditRating = creditRating;
+		this.discountRating = discountRating;
 	}
 
 public float getCreditRating() {

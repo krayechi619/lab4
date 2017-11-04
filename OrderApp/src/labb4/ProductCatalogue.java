@@ -11,30 +11,24 @@ import java.util.*;
  *
  */
 public class ProductCatalogue implements Iterable<Product> {
+	private ArrayList<Product> Products = new ArrayList<Product>();
+	
 	public ProductCatalogue()
 	{
-		System.out.println("ProductCatalogue class");
-	}
-	public ArrayList<Product> Products = new ArrayList<Product>();
-			
-	public void addProduct(String name_, Double price_, int productID_)
-	{
-		Product product = new Product(name_, price_, productID_);
-		Products.add(product);
-		
-		
 		
 	}
 	
-	public void createProductCatalogue(Order order)
+	public void addProduct(String name, Double price, int productID, int quantity)
 	{
 		
 		
+		Product product = new Product(name, price, productID, quantity);
+		Products.add(product);
 	}
-	@Override
+	
+	
 	public Iterator<Product> iterator()
 	{
-		System.out.println("called ProductCatalogue class");
 		return Products.iterator();
 	}
 }
